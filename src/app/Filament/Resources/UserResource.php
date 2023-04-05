@@ -12,6 +12,10 @@ use Filament\Resources\Table;
 use Filament\Tables;
 use Illuminate\Database\Eloquent\Builder;
 use Spatie\Permission\Models\Role;
+use Widiu7omo\FilamentBandel\Actions\BanAction;
+use Widiu7omo\FilamentBandel\Actions\BanBulkAction;
+use Widiu7omo\FilamentBandel\Actions\UnbanAction;
+use Widiu7omo\FilamentBandel\Actions\UnbanBulkAction;
 
 class UserResource extends Resource
 {
@@ -49,7 +53,7 @@ class UserResource extends Resource
                 Tables\Columns\TextColumn::make('email')->searchable(),
                 Tables\Columns\TagsColumn::make('roles.name'),
                 Tables\Columns\TextColumn::make('created_at'),
-                Tables\Columns\TextColumn::make('updated_at'),
+                Tables\Columns\CheckboxColumn::make('banned_at')->disabled()->label('Banned'),
                 Tables\Columns\CheckboxColumn::make("email_verified_at")->disabled()->label("Email Verified")
             ])
             ->filters([
@@ -57,9 +61,14 @@ class UserResource extends Resource
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
+                BanAction::make(),
+                UnbanAction::make()
             ])
             ->bulkActions([
                 Tables\Actions\DeleteBulkAction::make(),
+            ])->prependBulkActions([
+                BanBulkAction::make('bulk-ban-model'),
+                UnbanBulkAction::make('bulk-unban-model')
             ]);
     }
 

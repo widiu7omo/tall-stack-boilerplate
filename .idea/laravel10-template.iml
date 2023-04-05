@@ -2,10 +2,13 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/app" isTestSource="false" packagePrefix="App\" />
       <sourceFolder url="file://$MODULE_DIR$/src/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
       <sourceFolder url="file://$MODULE_DIR$/src/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/src/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/src/storage/app" />
       <excludeFolder url="file://$MODULE_DIR$/src/storage/framework" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/akaunting/laravel-money" />
@@ -13,6 +16,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/blade-ui-kit/blade-heroicons" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/blade-ui-kit/blade-icons" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/calebporzio/sushi" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/danharrin/date-format-converter" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/danharrin/livewire-rate-limiting" />
@@ -40,6 +44,7 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/guzzlehttp/uri-template" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/intervention/image" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/lab404/laravel-impersonate" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/pint" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/laravel/sail" />
@@ -104,22 +109,31 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/recursion-context" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/type" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/shuvroroy/filament-spatie-laravel-backup" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/shuvroroy/filament-spatie-laravel-health" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/backtrace" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/db-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/eloquent-sortable" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/enum" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/flare-client-php" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/ignition" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/image" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/image-optimizer" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/invade" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-activitylog" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-backup" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-health" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-ignition" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-medialibrary" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-package-tools" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-permission" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-settings" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-signal-aware-command" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-tags" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/laravel-translatable" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/regex" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/spatie/temporary-directory" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/stechstudio/filament-impersonate" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/console" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/css-selector" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/symfony/deprecation-contracts" />
@@ -155,6 +169,8 @@
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/src/vendor/z3d0x/filament-logger" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/cybercog/laravel-ban" />
+      <excludeFolder url="file://$MODULE_DIR$/src/vendor/widiu7omo/filament-bandel" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

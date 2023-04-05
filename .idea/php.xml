@@ -159,9 +159,22 @@
       <path value="$PROJECT_DIR$/src/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/src/vendor/ryangjchandler/blade-capture-directive" />
       <path value="$PROJECT_DIR$/src/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/src/vendor/calebporzio/sushi" />
+      <path value="$PROJECT_DIR$/src/vendor/shuvroroy/filament-spatie-laravel-backup" />
+      <path value="$PROJECT_DIR$/src/vendor/spatie/laravel-signal-aware-command" />
+      <path value="$PROJECT_DIR$/src/vendor/spatie/laravel-backup" />
+      <path value="$PROJECT_DIR$/src/vendor/spatie/db-dumper" />
+      <path value="$PROJECT_DIR$/src/vendor/shuvroroy/filament-spatie-laravel-health" />
+      <path value="$PROJECT_DIR$/src/vendor/spatie/enum" />
+      <path value="$PROJECT_DIR$/src/vendor/spatie/laravel-health" />
+      <path value="$PROJECT_DIR$/src/vendor/spatie/regex" />
+      <path value="$PROJECT_DIR$/src/vendor/lab404/laravel-impersonate" />
+      <path value="$PROJECT_DIR$/src/vendor/stechstudio/filament-impersonate" />
+      <path value="$PROJECT_DIR$/src/vendor/cybercog/laravel-ban" />
+      <path value="$PROJECT_DIR$/src/vendor/widiu7omo/filament-bandel" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>

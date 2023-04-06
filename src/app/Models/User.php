@@ -65,4 +65,9 @@ class User extends Authenticatable implements BannableContract, FilamentUser, Ha
             ->fit(Manipulations::FIT_CROP, 300, 300)
             ->nonQueued();
     }
+
+    public function canImpersonate(): bool
+    {
+        return true;
+    }
 }

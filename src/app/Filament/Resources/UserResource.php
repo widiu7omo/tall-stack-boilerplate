@@ -12,6 +12,7 @@ use Filament\Resources\Table;
 use Filament\Tables;
 use Illuminate\Database\Eloquent\Builder;
 use Spatie\Permission\Models\Role;
+use STS\FilamentImpersonate\Tables\Actions\Impersonate;
 use Widiu7omo\FilamentBandel\Actions\BanAction;
 use Widiu7omo\FilamentBandel\Actions\BanBulkAction;
 use Widiu7omo\FilamentBandel\Actions\UnbanAction;
@@ -62,7 +63,9 @@ class UserResource extends Resource
             ->actions([
                 Tables\Actions\EditAction::make(),
                 BanAction::make(),
-                UnbanAction::make()
+                UnbanAction::make(),
+                Impersonate::make(),
+            ])->prependActions([
             ])
             ->bulkActions([
                 Tables\Actions\DeleteBulkAction::make(),

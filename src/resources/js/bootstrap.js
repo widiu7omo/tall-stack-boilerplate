@@ -5,6 +5,7 @@ import {components} from "./components";
 document.addEventListener('alpine:init', () => {
     Alpine.data('popover', components.popover)
     Alpine.data('popoverGroup', components.popoverGroup)
+    Alpine.data('menu', components.menu)
 })
 window.Alpine = Alpine
 Alpine.start()

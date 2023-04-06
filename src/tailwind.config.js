@@ -4,9 +4,11 @@ module.exports = {
         './resources/**/*.blade.php',
         './vendor/filament/**/*.blade.php',
     ],
+    darkMode: 'class',
     theme: {
         extend: {
             colors: {
+                ...colors,
                 danger: colors.rose,
                 primary: colors.blue,
                 success: colors.green,

@@ -8,8 +8,6 @@ use Illuminate\View\Component;
 
 class Base extends Component
 {
-    protected static string $title;
-
     /**
      * Create a new component instance.
      */

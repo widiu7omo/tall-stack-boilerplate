@@ -1,9 +1,12 @@
 //  AlpineJS
 import Alpine from 'alpinejs'
+import {components} from "./components";
 
-
+document.addEventListener('alpine:init', () => {
+    Alpine.data('popover', components.popover)
+    Alpine.data('popoverGroup', components.popoverGroup)
+})
 window.Alpine = Alpine
-
 Alpine.start()
 
 

@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('landing.welcome');
 });
 
-Route::prefix('app')->middleware([])->group(function (){
+Route::prefix('app')->middleware([])->group(function () {
     Route::get('/', [HomeController::class, 'index'])->name('app.home');
 });

@@ -41,7 +41,6 @@ class LoginForm extends Component
             $this->redirect(route('app.home'));
         }
         $this->addError('login_failed', "Credentials doesn't match with our record");
-        //TODO: login & redirect
     }
 
     public function render(): View

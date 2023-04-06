@@ -45,11 +45,9 @@ class RegisterForm extends Component
     {
         $validatedData = $this->validate();
         $newUser = User::create(['name' => $this->fullName(), ...$validatedData]);
-        //TODO: assign user as user level
         $newUser->assignRole(['filament_user']);
         auth()->login($newUser);
         $this->redirect(route('app.home'));
-        //TODO: register here and redirect to home app
     }
 
     public function render(): View

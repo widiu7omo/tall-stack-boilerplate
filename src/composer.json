@@ -16,6 +16,7 @@
         "filament/spatie-laravel-settings-plugin": "^2.17",
         "filament/spatie-laravel-tags-plugin": "^2.17",
         "guzzlehttp/guzzle": "^7.2",
+        "itsgoingd/clockwork": "^5.1",
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",

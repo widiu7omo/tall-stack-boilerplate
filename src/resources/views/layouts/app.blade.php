@@ -1,41 +1,41 @@
 @props(["title"=> '-'])
 <x-layouts.base :title="$title">
     <div class="min-h-full">
-        <div class="bg-indigo-600 pb-32">
+        <div class="bg-rose-600 pb-32">
             <nav x-data="{ open: false }"
-                 class="border-b border-indigo-300 border-opacity-25 bg-indigo-600 lg:border-none">
+                 class="border-b border-rose-300 border-opacity-25 bg-rose-600 lg:border-none">
                 <div class="mx-auto max-w-7xl px-2 sm:px-4 lg:px-8">
                     <div
-                        class="relative flex h-16 items-center justify-between lg:border-b lg:border-indigo-400 lg:border-opacity-25">
+                        class="relative flex h-16 items-center justify-between lg:border-b lg:border-rose-400 lg:border-opacity-25">
                         <div class="flex items-center px-2 lg:px-0">
                             <div class="flex-shrink-0">
                                 <img class="block h-8 w-8"
-                                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&amp;shade=300"
+                                     src="https://tailwindui.com/img/logos/mark.svg?color=rose&amp;shade=300"
                                      alt="Your Company">
                             </div>
                             <div class="hidden lg:ml-10 lg:block">
                                 <div class="flex space-x-4">
 
                                     <a href="#"
-                                       class="bg-indigo-700 text-white rounded-md py-2 px-3 text-sm font-medium"
+                                       class="bg-rose-700 text-white rounded-md py-2 px-3 text-sm font-medium"
                                        aria-current="page" x-state:on="Current" x-state:off="Default"
-                                       x-state-description="Current: &quot;bg-indigo-700 text-white&quot;, Default: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Dashboard</a>
+                                       x-state-description="Current: &quot;bg-rose-700 text-white&quot;, Default: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Dashboard</a>
 
                                     <a href="#"
-                                       class="text-white hover:bg-indigo-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium"
-                                       x-state-description="undefined: &quot;bg-indigo-700 text-white&quot;, undefined: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Team</a>
+                                       class="text-white hover:bg-rose-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium"
+                                       x-state-description="undefined: &quot;bg-rose-700 text-white&quot;, undefined: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Team</a>
 
                                     <a href="#"
-                                       class="text-white hover:bg-indigo-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium"
-                                       x-state-description="undefined: &quot;bg-indigo-700 text-white&quot;, undefined: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Projects</a>
+                                       class="text-white hover:bg-rose-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium"
+                                       x-state-description="undefined: &quot;bg-rose-700 text-white&quot;, undefined: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Projects</a>
 
                                     <a href="#"
-                                       class="text-white hover:bg-indigo-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium"
-                                       x-state-description="undefined: &quot;bg-indigo-700 text-white&quot;, undefined: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Calendar</a>
+                                       class="text-white hover:bg-rose-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium"
+                                       x-state-description="undefined: &quot;bg-rose-700 text-white&quot;, undefined: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Calendar</a>
 
                                     <a href="#"
-                                       class="text-white hover:bg-indigo-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium"
-                                       x-state-description="undefined: &quot;bg-indigo-700 text-white&quot;, undefined: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Reports</a>
+                                       class="text-white hover:bg-rose-500 hover:bg-opacity-75 rounded-md py-2 px-3 text-sm font-medium"
+                                       x-state-description="undefined: &quot;bg-rose-700 text-white&quot;, undefined: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Reports</a>
 
                                 </div>
                             </div>
@@ -54,7 +54,7 @@
                                         </svg>
                                     </div>
                                     <input id="search"
-                                           class="block w-full rounded-md border border-transparent bg-white py-2 pl-10 pr-3 leading-5 text-gray-900 placeholder-gray-500 focus:border-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:text-sm"
+                                           class="block w-full rounded-md border border-transparent bg-white py-2 pl-10 pr-3 leading-5 text-gray-900 placeholder-gray-500 focus:border-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-600 sm:text-sm"
                                            placeholder="Search" type="search" name="search">
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                         <div class="flex lg:hidden">
                             <!-- Mobile menu button -->
                             <button type="button"
-                                    class="inline-flex items-center justify-center rounded-md bg-indigo-600 p-2 text-indigo-200 hover:bg-indigo-500 hover:bg-opacity-75 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600"
+                                    class="inline-flex items-center justify-center rounded-md bg-rose-600 p-2 text-rose-200 hover:bg-rose-500 hover:bg-opacity-75 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-600"
                                     aria-controls="mobile-menu" @click="open = !open" aria-expanded="false"
                                     x-bind:aria-expanded="open.toString()">
                                 <span class="sr-only">Open main menu</span>
@@ -87,7 +87,7 @@
                         <div class="hidden lg:ml-4 lg:block">
                             <div class="flex items-center">
                                 <button type="button"
-                                        class="flex-shrink-0 rounded-full bg-indigo-600 p-1 text-indigo-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600">
+                                        class="flex-shrink-0 rounded-full bg-rose-600 p-1 text-rose-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-600">
                                     <span class="sr-only">View notifications</span>
                                     <svg class="h-6 w-6" x-description="Heroicon name: outline/bell"
                                          xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -103,7 +103,7 @@
                                      @click.away="onClickAway($event)" class="relative ml-3 flex-shrink-0">
                                     <div>
                                         <button type="button"
-                                                class="flex rounded-full bg-indigo-600 text-sm text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600"
+                                                class="flex rounded-full bg-rose-600 text-sm text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-600"
                                                 id="user-menu-button" x-ref="button" @click="onButtonClick()"
                                                 @keyup.space.prevent="onButtonEnter()"
                                                 @keydown.enter.prevent="onButtonEnter()" aria-expanded="false"
@@ -167,28 +167,28 @@
                      x-show="open">
                     <div class="space-y-1 px-2 pt-2 pb-3">
 
-                        <a href="#" class="bg-indigo-700 text-white block rounded-md py-2 px-3 text-base font-medium"
+                        <a href="#" class="bg-rose-700 text-white block rounded-md py-2 px-3 text-base font-medium"
                            aria-current="page" x-state:on="Current" x-state:off="Default"
-                           x-state-description="Current: &quot;bg-indigo-700 text-white&quot;, Default: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Dashboard</a>
+                           x-state-description="Current: &quot;bg-rose-700 text-white&quot;, Default: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Dashboard</a>
 
                         <a href="#"
-                           class="text-white hover:bg-indigo-500 hover:bg-opacity-75 block rounded-md py-2 px-3 text-base font-medium"
-                           x-state-description="undefined: &quot;bg-indigo-700 text-white&quot;, undefined: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Team</a>
+                           class="text-white hover:bg-rose-500 hover:bg-opacity-75 block rounded-md py-2 px-3 text-base font-medium"
+                           x-state-description="undefined: &quot;bg-rose-700 text-white&quot;, undefined: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Team</a>
 
                         <a href="#"
-                           class="text-white hover:bg-indigo-500 hover:bg-opacity-75 block rounded-md py-2 px-3 text-base font-medium"
-                           x-state-description="undefined: &quot;bg-indigo-700 text-white&quot;, undefined: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Projects</a>
+                           class="text-white hover:bg-rose-500 hover:bg-opacity-75 block rounded-md py-2 px-3 text-base font-medium"
+                           x-state-description="undefined: &quot;bg-rose-700 text-white&quot;, undefined: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Projects</a>
 
                         <a href="#"
-                           class="text-white hover:bg-indigo-500 hover:bg-opacity-75 block rounded-md py-2 px-3 text-base font-medium"
-                           x-state-description="undefined: &quot;bg-indigo-700 text-white&quot;, undefined: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Calendar</a>
+                           class="text-white hover:bg-rose-500 hover:bg-opacity-75 block rounded-md py-2 px-3 text-base font-medium"
+                           x-state-description="undefined: &quot;bg-rose-700 text-white&quot;, undefined: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Calendar</a>
 
                         <a href="#"
-                           class="text-white hover:bg-indigo-500 hover:bg-opacity-75 block rounded-md py-2 px-3 text-base font-medium"
-                           x-state-description="undefined: &quot;bg-indigo-700 text-white&quot;, undefined: &quot;text-white hover:bg-indigo-500 hover:bg-opacity-75&quot;">Reports</a>
+                           class="text-white hover:bg-rose-500 hover:bg-opacity-75 block rounded-md py-2 px-3 text-base font-medium"
+                           x-state-description="undefined: &quot;bg-rose-700 text-white&quot;, undefined: &quot;text-white hover:bg-rose-500 hover:bg-opacity-75&quot;">Reports</a>
 
                     </div>
-                    <div class="border-t border-indigo-700 pt-4 pb-3">
+                    <div class="border-t border-rose-700 pt-4 pb-3">
                         <div class="flex items-center px-5">
                             <div class="flex-shrink-0">
                                 <img class="h-10 w-10 rounded-full"
@@ -197,10 +197,10 @@
                             </div>
                             <div class="ml-3">
                                 <div class="text-base font-medium text-white">Tom Cook</div>
-                                <div class="text-sm font-medium text-indigo-300">tom@example.com</div>
+                                <div class="text-sm font-medium text-rose-300">tom@example.com</div>
                             </div>
                             <button type="button"
-                                    class="ml-auto flex-shrink-0 rounded-full bg-indigo-600 p-1 text-indigo-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600">
+                                    class="ml-auto flex-shrink-0 rounded-full bg-rose-600 p-1 text-rose-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-rose-600">
                                 <span class="sr-only">View notifications</span>
                                 <svg class="h-6 w-6" x-description="Heroicon name: outline/bell"
                                      xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -213,14 +213,14 @@
                         <div class="mt-3 space-y-1 px-2">
 
                             <a href="#"
-                               class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-indigo-500 hover:bg-opacity-75">Your
+                               class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-rose-500 hover:bg-opacity-75">Your
                                 Profile</a>
 
                             <a href="#"
-                               class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-indigo-500 hover:bg-opacity-75">Settings</a>
+                               class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-rose-500 hover:bg-opacity-75">Settings</a>
 
                             <a href="#"
-                               class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-indigo-500 hover:bg-opacity-75">Sign
+                               class="block rounded-md py-2 px-3 text-base font-medium text-white hover:bg-rose-500 hover:bg-opacity-75">Sign
                                 out</a>
 
                         </div>

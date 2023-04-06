@@ -1,14 +1,16 @@
-/**
- * We'll load the axios HTTP library which allows us to easily issue requests
- * to our Laravel back-end. This library automatically handles sending the
- * CSRF token as a header based on the value of the "XSRF" token cookie.
- */
+//  AlpineJS
+import Alpine from 'alpinejs'
 
-import axios from 'axios';
-window.axios = axios;
 
-window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.Alpine = Alpine
 
+Alpine.start()
+
+
+// Livewire hot reload
+import {livewire_hot_reload} from 'virtual:livewire-hot-reload'
+
+livewire_hot_reload();
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting

@@ -15,6 +15,7 @@ use Spatie\MediaLibrary\HasMedia;
 use Spatie\MediaLibrary\InteractsWithMedia;
 use Spatie\MediaLibrary\MediaCollections\Models\Media;
 use Spatie\Permission\Traits\HasRoles;
+use Spatie\Tags\HasTags;
 
 class User extends Authenticatable implements BannableContract, FilamentUser, HasMedia
 {
@@ -22,7 +23,7 @@ class User extends Authenticatable implements BannableContract, FilamentUser, Ha
     use HasRoles;
     use Bannable;
     use InteractsWithMedia;
-
+    use HasTags;
     /**
      * The attributes that are mass assignable.
      *
